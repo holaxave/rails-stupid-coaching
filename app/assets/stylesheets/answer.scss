@@ -1,0 +1,37 @@
+label {
+  font-family: Arial;
+  font-size: 16;
+}
+
+h1 {
+  font-family: Arial;
+  font-weight: bold;
+}
+
+p {
+  font-family: Arial;
+}
+
+a {
+  font-family: Arial;
+  color: grey;
+     &:hover {
+       color: blue;
+     }
+}
+.answer {
+  background-color:#FCFFCD;
+  padding: 10px;
+  font-family: Arial;
+  font-size: 10;
+}
+
+.container {
+  flex: display;
+  padding: 0 20px;
+}
+
+.l-b {
+  padding: 10px;
+  margin-top: 40px;
+}
